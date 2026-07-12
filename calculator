@@ -1,0 +1,28 @@
+First_num=int(input("Enter first number:"))
+Second_num=int(input("Enter second number:"))
+print("Choose operation")
+print("1.Add")
+print("2.Subtraction")
+print("3.Multiplication")
+print("4.Division")
+choice=input("Enter choice:")
+total=First_num+Second_num
+difference=abs(First_num-Second_num)
+product=First_num*Second_num
+if Second_num!=0:
+        division=First_num/Second_num
+else:
+        division="Cannot divide by zero"
+
+
+if choice=="1":
+    print("Sum is:",total)
+elif choice=="2":
+    print("Difference is:",difference)
+elif choice=="3":
+    print("Product is:",product)
+elif choice=="4":
+    print("Division is:",division)
+
+
+
