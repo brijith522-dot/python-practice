@@ -2,7 +2,7 @@
 from  datetime import date
 current_year =date.today().year
 birth_year= int(input("Enter the year of birth: ")) #getting user input
-if birth_year > current_year:                               #validating birth year
+if birth_year > current_year:                       #validating birth year
     print("You have entered an invalid year of birth, instead of that please enter a valid year of birth.")
 else:
     age = current_year - birth_year                 #Age calculation
