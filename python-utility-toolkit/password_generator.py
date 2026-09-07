@@ -9,8 +9,7 @@ if Length<=0:
 Numbers=input("Include number's? (yes/no): ").lower()
 Symbols=input("Include special characters? (yes/no): ").lower()
 Uppercase=input("Include uppercase letters? (yes/no): ").lower()
-if Length<0:
-    print("Password length must be greater than zero.")
+
 
 characters = string.ascii_lowercase  #default characters to lowercase letters
 
@@ -26,7 +25,7 @@ for i in range(Length):
 print("Generated Password:", password)
 if Length <8:
     print("Strength: Weak")
-elif length<12:
+elif Length<12:
     print("Strength: Moderate")
 else:
     print("Strength: Strong")
