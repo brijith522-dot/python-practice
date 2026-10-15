@@ -20,17 +20,17 @@ print("Weight:", weight, "kg")
 print("BMI:", round(bmi, 2))
 
 if bmi < 18.5:
-    category = "Underweight"
     print("Consult a healthcare professional if needed and focus on a nutritious diet.")
+    category = "Underweight"
 elif 18.5 <= bmi < 24.9:
-    category = "Normal weight"
     print("You have a healthy weight for your height.")
+    category = "Normal weight"   
 elif 25 <= bmi < 29.9:
-    category = "Overweight"
     print("Consider adopting a healthier lifestyle with a balanced diet and regular exercise.")
+    category = "Overweight"
 elif bmi >= 30:
-    category = "Obese"
     print("Consult a healthcare professional for a comprehensive weight management plan.")
-print("Category:", category)
+    category = "Obese"
+    print("Category:", category)
 
 print("============================")
